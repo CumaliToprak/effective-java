@@ -6,6 +6,7 @@ class BaklavaBuilder {
 
     //static inner class
     //static inner classes can be directly accessed using new BaklavaBuilder.Greece()
+/*
     public static class Greece{
         private int kg;
         private String origin;
@@ -66,5 +67,6 @@ class BaklavaBuilder {
             return new Baklava(this.kg, this.origin, this.priceAsEuro, this.exchangeRate);
         }
     }
+*/
 
 }

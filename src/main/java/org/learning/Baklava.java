@@ -13,13 +13,13 @@ public class Baklava {
     BigDecimal exchangeRate;
 
 
-    Baklava(int kg, String origin, BigDecimal priceAsEuro) {
+    private Baklava(int kg, String origin, BigDecimal priceAsEuro) {
         this.kg = kg;
         this.origin = origin;
         this.priceAsEuro = priceAsEuro;
     }
 
-    Baklava(int kg, String origin, BigDecimal priceAsEuro, BigDecimal exchangeRate) {
+    private Baklava(int kg, String origin, BigDecimal priceAsEuro, BigDecimal exchangeRate) {
         this.kg = kg;
         this.origin = origin;
         this.priceAsEuro = priceAsEuro.multiply(exchangeRate);

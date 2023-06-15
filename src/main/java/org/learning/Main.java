@@ -17,12 +17,12 @@ public class Main {
         System.out.println(turkishBaklava);*/
 
         Baklava greeceBaklava = new Baklava.Builder.Greece().setKg(1).setOrigin("GR").setPriceAsEuro(BigDecimal.valueOf(12.21)).build();
-        Baklava turkishBaklava = new Baklava.Builder.Turkey().setKg(1).setOrigin("GR").setPriceAsEuro(BigDecimal.valueOf(12.21)).
+        Baklava turkishBaklava = new Baklava.Builder.Turkey().setKg(1).setOrigin("TR").setPriceAsEuro(BigDecimal.valueOf(12.21)).
         setExchangeRate(BigDecimal.valueOf(25.2)).build();
+
 
         System.out.println(greeceBaklava);
         System.out.println(turkishBaklava);
-
 
     }
 }
