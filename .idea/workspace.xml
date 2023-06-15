@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b277ad85-e3e3-4c20-b647-6e0838f37d57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning/Baklava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning/BaklavaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learning/Baklava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learning/Baklava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learning/BaklavaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learning/BaklavaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learning/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2"
@@ -79,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686748482045</updated>
-      <workItem from="1686748483704" duration="7335000" />
+      <workItem from="1686748483704" duration="11689000" />
     </task>
     <servers />
   </component>

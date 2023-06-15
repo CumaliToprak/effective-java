@@ -2,24 +2,36 @@ package org.learning;
 
 import lombok.ToString;
 
+import java.math.BigDecimal;
+
 @ToString
 public class Baklava {
     int kg;
     String origin;
 
-    Float priceAsEuro;
+    BigDecimal priceAsEuro;
+    BigDecimal exchangeRate;
 
-    String city;
 
-    Baklava(int kg, String origin, String city) {
-        this.kg = kg;
-        this.origin = origin;
-        this.city = city;
-    }
-
-    Baklava(int kg, String origin, Float priceAsEuro) {
+    Baklava(int kg, String origin, BigDecimal priceAsEuro) {
         this.kg = kg;
         this.origin = origin;
         this.priceAsEuro = priceAsEuro;
+    }
+
+    Baklava(int kg, String origin, BigDecimal priceAsEuro, BigDecimal exchangeRate) {
+        this.kg = kg;
+        this.origin = origin;
+        this.priceAsEuro = priceAsEuro.multiply(exchangeRate);
+    }
+
+
+    @Override
+    public String toString() {
+        return "Baklava{" +
+                "kg=" + kg +
+                ", origin='" + origin + '\'' +
+                ", priceAsEuro=" + priceAsEuro +
+                '}';
     }
 }
